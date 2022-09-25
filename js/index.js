@@ -204,44 +204,45 @@ function sliderauto()
 	
 	lien.style.textAlign = "center";
 	switch(compteurimage){
-		case 1: 
+		
+			case 1: 
 						lien.innerHTML = "Web 3D";
 						lien.style.background = "#A5B8B4";
-           				lien.style.fontWeight = "bold";
+           					lien.style.fontWeight = "bold";
 						liens.href = "../pages/web3D.html";
 				break;
 			case 2: 
 						lien.innerHTML = "Web mining";
 						lien.style.background = "#A5B8B4";
-           				lien.style.fontWeight = "bold";
+           					lien.style.fontWeight = "bold";
 						liens.href = "../pages/web-mining.html";
 				break;
 			case 3: 
 						lien.innerHTML = "Système multi-agents";
 						lien.style.background = "#A5B8B4";
-           				lien.style.fontWeight = "bold";
+           					lien.style.fontWeight = "bold";
 						liens.href = "../pages/sma.html";
 				break;
 			case 4: 
 						lien.innerHTML = "Recherche d'information";
 						lien.style.background = "#A5B8B4";
-           				lien.style.fontWeight = "bold";
+           					lien.style.fontWeight = "bold";
 						liens.href = "../pages/ri.html";
 				break;
 			case 5: 
 						lien.innerHTML = "Entrepôt des données";
 						lien.style.background = "#A5B8B4";
-           				lien.style.fontWeight = "bold";
+           					lien.style.fontWeight = "bold";
 						liens.href = "../pages/edd.html";
 				break;
 			case 6: 
 						lien.innerHTML = "Apprentissage automatique";
 						lien.style.background = "#A5B8B4";
-           				lien.style.fontWeight = "bold";
+           					lien.style.fontWeight = "bold";
 						liens.href = "../pages/aa.html";
 				break;
 	}
-	image.src="resources/module"+compteurimage+".jpg";
+	image.src="../resources/module"+compteurimage+".jpg";
 	if(compteurimage==totalimage)
 	{
 		compteurimage=0;
