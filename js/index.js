@@ -251,6 +251,6 @@ function sliderauto()
 		compteurimage=0;
 	}*/
 }
-	window.setInterval(sliderauto,5000);
+	window.setInterval(sliderauto,3000);
 
 
