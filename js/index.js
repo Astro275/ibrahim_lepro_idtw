@@ -6,7 +6,7 @@ var lien = document.getElementById('lien');
 	lien.style.textAlign = "center";
 	lien.innerHTML = "Web 3D";
 	lien.style.background = "#A5B8B4";
-    lien.style.fontWeight = "bold";
+        lien.style.fontWeight = "bold";
 	liens.href = "../pages/web3D.html";
 
 function slider(x)
@@ -251,6 +251,6 @@ function sliderauto()
 		compteurimage=0;
 	}*/
 }
-	window.setInterval(sliderauto,3000);
+	window.setInterval(sliderauto,1000);
 
 
