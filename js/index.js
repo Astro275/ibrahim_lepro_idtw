@@ -55,7 +55,7 @@ function slider(x)
 						liens.href = "../pages/aa.html";
 				break;
     	}
-		image.src="resources/module"+compteurimage+".jpg";
+		image.src="../resources/module"+compteurimage+".jpg";
 	}
 	if(compteurimage==totalimage)
 	{
@@ -98,7 +98,7 @@ function slider(x)
 						liens.href = "../pages/aa.html";
 				break;
     	}
-		image.src="resources/module"+compteurimage+".jpg";
+		image.src="../resources/module"+compteurimage+".jpg";
 		compteurimage=0;
 	}
 }
@@ -148,12 +148,12 @@ function slidery(x)
 						liens.href = "../pages/aa.html";
 				break;
     	}
-		image.src="resources/module"+compteurimage+".jpg";
+		image.src="../resources/module"+compteurimage+".jpg";
 	}
 	if(compteurimage<1)
 	{
 		compteurimage=totalimage;
-		image.src="resources/module"+compteurimage+".jpg";
+		image.src="../resources/module"+compteurimage+".jpg";
 		lien.style.textAlign = "center";
 		switch(compteurimage){
 			case 1: 
@@ -241,7 +241,7 @@ function sliderauto()
 						liens.href = "../pages/aa.html";
 				break;
 	}
-	image.src="resources/module"+compteurimage+".jpg";
+	image.src="../resources/module"+compteurimage+".jpg";
 	if(compteurimage==totalimage)
 	{
 		compteurimage=0;
